@@ -15,6 +15,9 @@ h1 {
     text-align: center;
     color: #333;
 }
+h2{
+    margin-left: 50px;
+}
 p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -29,6 +32,8 @@ p {
 form {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
 }
 input, textarea, button {
     padding: 10px;
@@ -57,9 +62,22 @@ button:hover {
 }
 span{
     font-size: 15px;
+   
 }
 
 img{
     width: 100%;
     
+}
+
+h4{
+    font-weight: 100;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.priceContainer {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: beige;
 }
